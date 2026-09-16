@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <title>Capstone Project</title>
+  </head>
+  <body>
+    <header class="section1">
+      <img src="" width="50px" height="50px" alt="logo" /><br />
+      <img src="" alt="earth" width="100px" height="100px" />
+      <h1>Explore Our Solar <br />System Through Data</h1>
+      <p>
+        Understand the planets not just by name,but by measurable<br />
+        facts.From size and mass to gravity and density,this page<br />
+        breaks down the solar system in a clear,data-driven way.
+      </p>
+      <a href="#my-table" class="link1">Explore the data</a
+      ><a href="#my-form">Contact us</a><br />
+    </header>
+    <hr />
+    <main>
+      <div id="video">
+        <section class="section2">
+          <h2>
+            How Planetary Data Helps Us<br />
+            Understand Space
+          </h2>
+          <p>
+            Planetary science goes beyond images.Comparing
+            <span>mass</span>,<span> diameter</span>,<br />
+            <span> gravity</span>,<span> density</span>,we gain insight into how
+            planets form, behave, <br />
+            and interact within the solar system.
+          </p>
+          <video controls autoplay muted loop width="500" height="400">
+            <source
+              src="https://www.youtube.com/embed/B431PuKtN1Q"
+              type="video/mp4"
+            />
+            <source src="video.mp4" type="video/mp4" />
+          </video>
+        </section>
+      </div>
+      <hr />
+      <section class="section3">
+        <h2>Visualizing the Differences Between Planets</h2>
+        <p>
+          Each planet in our solar system has unique physical characteristics.
+          Visual comparisons help highlight how vastly<br />
+          different terrestrial planets are from gas giants and ice giants.
+        </p>
+        <figure>
+          <img src="" alt="Our Solar system and planets" id="image" />
+          <figcaption>Our Solar System and Planets</figcaption>
+        </figure>
+      </section>
+      <hr />
+      <section class="section4">
+        <h2>Planetary Facts at a Glance</h2>
+        <p>
+          Below is a comparative trait of major planets in our solar system. The
+          data highlights key physical<br />
+          properties used by astronomers and researchers worldwide.
+        </p>
+        <table id="my-table">
+          <caption>
+            Data about the planets of our solar system (Planetary facts taken
+            from NASA)
+          </caption>
+          <thead>
+            <tr>
+              <th scope="row" colspan="2" class="curve1"></th>
+              <th scope="row">Name</th>
+              <th scope="row">Mass (10 24kg)</th>
+              <th scope="row">Diameter (km)</th>
+              <th scope="row">Density (kg/m3)</th>
+              <th scope="row" class="curve2">Gravity (m/s2)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="4" colspan="2" class="planets">
+                <strong>Terrestrial Planets</strong>
+              </td>
+              <td>Mercury</td>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr>
+              <td>Venus</td>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr>
+              <td>Earth</td>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr>
+              <td>Mars</td>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr>
+              <td rowspan="4" class="planets">
+                <strong>Jovian Planets</strong>
+              </td>
+              <td rowspan="2" class="planets"><strong>Gas Giants</strong></td>
+              <td>Jupiter</td>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr>
+              <td>Saturn</td>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr>
+              <td rowspan="2" class="planets"><strong>Ice Giants</strong></td>
+              <td>Uranus</td>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr>
+              <td>Neptune</td>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2" class="planets curve3">
+                <strong>Dwarf Planets</strong>
+              </td>
+              <td>Pluto</td>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td class="curve4">3.7</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <section class="section5">
+        <h2>Have Questions About Planetary Science?</h2>
+        <p>
+          Interested in learning more about space,astronomy,or how planetary
+          data is collected and analyzed?
+        </p>
+        <p class="second">Reach out and we'll get back to you.</p>
+          <form action="" method="post" id="my-form" class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" class="required">Full Name</label><br />
+                <input
+                  type="text"
+                  id="Fullname"
+                  name="name"
+                  placeholder="Fullname"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <br />
+                <label for="email" class="required">Email</label><br />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="example@example.com"
+                  required
+                />
+              </div>
+            </div>
+              <br />
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone-number" class="required">Phone Number</label
+                  ><br />
+                  <input
+                    type="tel"
+                    id="phone-number"
+                    name="phone-number"
+                    placeholder="Please enter a valid phone number"
+                    required
+                  />
+                </div>
+                <br />
+                <div class="form-group">
+                  <label for="message" class="required">Message</label><br />
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Enter your message"
+                    maxlength="100"
+                    required
+                  ></textarea>
+                  <span class="char-count">100 characters</span>
+                </div>
+              </div>
+                <br>
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </section>
+      <hr />
+    </main>
+    <footer>
+      <section>
+        <h3>About</h3>
+        <p>
+          This project is a capstone project for TS Academy Frontend Development
+          course. It is a collaborative effort by a group of developers who
+          worked together to create it.
+        </p>
+      </section>
+      <hr />
+      <p>
+        2026 Design by <a href="https://amakandukwu.com/">Amaka</a> &
+        <a href="https://www.linkedin.com/in/ifeomaokocha">Ifeoma A.</a>
+      </p>
+      &emsp;
+      <p>Built by Last group.</p>
+      <p>All rights reserved</p>
+      <br />
+      <p>TSAcademy</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
